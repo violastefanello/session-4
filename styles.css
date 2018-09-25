@@ -7,7 +7,29 @@ html, body {
 }
 
 header, footer {
+background-color: pink;	
+color:white;
+font-family: "Source Sans Pro", sans-serif;
+height: 190px;
+text-align: center;
+}
 
+h1 {font-size: 45px;
+    text-decoration: overline;
+    text-align: center;
+}
+
+h2 {text-indent:23px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+h3 {
+    color: #b27f87;
 }
 
 .centered {
@@ -15,16 +37,19 @@ header, footer {
 }
 
 header .subtitle {
-
-}
+	p {
+font-family: "Source Sans Pro", sans-serif;
+}}
 
 h1 {
-
+color: white;
+font-family: "Source Sans Pro", sans-serif;
 }
 
 ul {
 	display: flex;
 	flex-wrap: wrap;
+
 }
 
 ul li {
@@ -32,7 +57,10 @@ ul li {
 }
 
 main {
-
+	font-family: "Source Sans Pro", sans-serif;
+text-align:left;
+text-indent: 230px;
+list-style-position: inside;
 }
 
 section {
@@ -65,4 +93,5 @@ p {
 
 footer h2 {
 
+height: 30px;
 }
